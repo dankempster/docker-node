@@ -11,3 +11,5 @@ RUN set -x; \
     chmod -R 2775 /var/www;
 
 WORKDIR /project
+
+USER www-data
